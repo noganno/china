@@ -1,0 +1,1 @@
+<p><span>id <?=$data->id?></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="bold"><?=$data->filename?></span>&nbsp;&nbsp;&nbsp;&nbsp;<span><?=date("j-m-Y H:i",$data->date)?></span></p>

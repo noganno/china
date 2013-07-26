@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /framework/
+Disallow: /framework
+Disallow: /assets/
+Disallow: /index.php
+Disallow: /search
+Disallow: /webstat/
+Disallow: /external/
+Disallow: /protected/
+Disallow: /themes/
+Host: q-seo.ru
+Sitemap: http://q-seo.ru/sitemap.xml

@@ -1,0 +1,112 @@
+@charset utf-8;
+a {
+    outline: none !important;
+}
+#logo span.sitename{
+	font-size: 1.2em;
+	color: #34495e;
+}
+#slogan{
+	margin: 10px 0 0 150px;
+	font-style: italic;
+	color: #16a085;
+}
+#slogan h2{
+	font-size: 1.3em;
+}
+p#phone_number{
+	font-size: 2em;
+	margin: 0.8em 2em 0 0; 
+	color: #7f8c8d;
+}
+p#phone_number span.prefix{
+	font-size: 0.7em;
+	color: #95a5a6;
+}
+#top-menu{
+	margin: 10px 0 0;
+}
+.top-info-block{
+	margin: 15px 0 0 17px;
+	height: 160px;
+	border-radius: 5px;
+}
+.top-info-block h4{
+	font-size: 1.3em;
+	margin: 0.8em 0.5em;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid #666;
+	-webkit-box-shadow: 0 1px 0 #ddd;
+	-moz-box-shadow: 0 1px 0 #ddd;
+	box-shadow: 0 1px 0 #ddd;
+	color: #ecf0f1;
+	text-align: center;
+}
+.top-info-block p{
+	color: #ecf0f1;
+	margin: 1em; 
+}
+.first-info-block{
+	background: #27ae60;
+}
+.second-info-block{
+	background: #2980b9;
+}
+.third-info-block{
+	background: #8e44ad;
+}
+article h1{
+	font-size: 1.6em;
+}
+.order{
+	margin-left:1em; 
+}
+footer[role="contentinfo"]{
+	margin: 1em 0 0 0;
+	padding: 1em;
+	background: #34495e;
+	border-radius: 10px 10px 0 0;
+}
+#facebook{
+	background: url('../images/socials.png') 0 0 no-repeat;
+}
+#twitter{
+	background: url('../images/socials.png') 0 -47px no-repeat;
+}
+#vkontakte{
+	background: url('../images/socials.png') 0 -91px no-repeat;
+}
+#odnoclassniki{
+	background: url('../images/socials.png') 0 -136px no-repeat;
+}
+#google{
+	background: url('../images/socials.png') 0 -181px no-repeat;
+}
+#livejournal{
+	background: url('../images/socials.png') 0 -226px no-repeat;
+}
+#moymir{
+	background: url('../images/socials.png') 0 -271px no-repeat;
+}
+
+#facebook:hover{
+	background: url('../images/socials.png') -42px 0 no-repeat;
+}
+#twitter:hover{
+	background: url('../images/socials.png') -42px -47px no-repeat;
+}
+#vkontakte:hover{
+	background: url('../images/socials.png') -42px -91px no-repeat;
+}
+#odnoclassniki:hover{
+	background: url('../images/socials.png') -42px -136px no-repeat;
+}
+#google:hover{
+	background: url('../images/socials.png') -42px -181px no-repeat;
+}
+#livejournal:hover{
+	background: url('../images/socials.png') -42px -226px no-repeat;
+}
+#moymir:hover{
+	background: url('../images/socials.png') -42px -271px no-repeat;
+}
