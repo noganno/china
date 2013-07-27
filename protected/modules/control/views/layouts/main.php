@@ -55,11 +55,12 @@
                 <div class="nav-collapse collapse" id="nav-collapse-01">
                   <?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-                array('label'=>'Категории', 'url'=>array('/control/category'), 'items' => Category::findAllCat()),
+                array('label'=>'Категории', 'url'=>array('/control/category_products'), 'items' => CategoryProducts::findAllCat()),
 				array('label'=>'Заказы', 'url'=>array('/control/content')),
 				array('label'=>'Настройки', 'url'=>array('/control/settings')),
 				array('label'=>'Пользователи', 'url'=>array('/control/user')),
-				
+				array('label'=>'Продукция', 'url'=>array('/control/products')),
+
 			),'htmlOptions'=>array('class'=>'nav', 'id' => 'top-menu'),
 			'activeCssClass' => 'btn-info',
 		)); ?>
