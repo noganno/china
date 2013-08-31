@@ -15,20 +15,20 @@
 	),
 )); ?>
 	<div class="row">
-		<?php echo $form->labelEx($model,'Пользователь'); ?>
+		<?php echo $form->labelEx($model,'Login'); ?>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Пароль'); ?>
+		<?php echo $form->labelEx($model,'Password'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
 
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'Запомнить меня'); ?>
+		<?php echo $form->label($model,'remember me'); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 

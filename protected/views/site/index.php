@@ -9,9 +9,13 @@
 	* Вывод заголовка везде, кроме главной (id = 4)
 	*
 	*/
-	if ($id != 4) echo '<h1>'.CHtml::encode($title).'</h1>'; 
+	if ($id != 4) echo '<h1>'.CHtml::encode($title).'</h1>';
 
-?>
+
+ /*дальше контент*/
+ echo CHtml::tag('h1',array(),'Главная страница');
+
+ ?>
 
 <?php echo $content; ?>
 

@@ -78,7 +78,7 @@ li.btn a {
 
 .filters input {
     padding: 3px 0 3px 0;
-    height: 11px;
+    height: 15px;
 }
 
 .grid-view table.items td {
@@ -118,7 +118,7 @@ li.btn a {
 
 .grid-view table.items td {
     padding: 3px 5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #content-form #Content_title, #content-form #Content_content {

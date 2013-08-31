@@ -1,11 +1,11 @@
 <?php /* @var $this Controller */ ?>
 <?php $this->beginContent('/layouts/login_l'); ?>
-<div class="span9">
+<div class="span10">
 	<div id="content">
 		<?php echo $content; ?>
 	</div><!-- content -->
 </div>
-<div class="span3">
+<div class="span2">
 	<div id="sidebar">
 	<?php
 		$this->beginWidget('zii.widgets.CPortlet', array(

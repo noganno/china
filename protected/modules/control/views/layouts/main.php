@@ -60,6 +60,8 @@
 				array('label'=>'Настройки', 'url'=>array('/control/settings')),
 				array('label'=>'Пользователи', 'url'=>array('/control/user')),
 				array('label'=>'Продукция', 'url'=>array('/control/products')),
+				array('label'=>'Бренды', 'url'=>array('/control/brands')),
+				array('label'=>'Тип', 'url'=>array('/control/types')),
 
 			),'htmlOptions'=>array('class'=>'nav', 'id' => 'top-menu'),
 			'activeCssClass' => 'btn-info',
@@ -81,7 +83,7 @@
 	<div class="row">
 		<div class="span12">
 			<div id="footer" class="span12">
-				<p class="copy">Copyright &copy; 2013 by </p>
+				<p class="copy">Copyright &copy; 2013 by Jenya</p>
 				<p><span class="fui-chat"></span> Основано на Yii<br />
 					<a href="http://www.yiiframework.com/doc/guide/1.1/ru" target="_blank">Документация по фреймворку</a>.
 				</p>

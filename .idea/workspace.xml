@@ -2,15 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91cf16b-7881-48fb-bc47-44c4473555ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/control/controllers/ProductsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/flat-ui/js/application.js" afterPath="$PROJECT_DIR$/themes/flat-ui/js/application.js" />
+      <change type="DELETED" beforePath="D:\openserver\domains\chinadmin\sxd\backup\china_2013-07-17_15-56-58.sql.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\openserver\domains\chinadmin\sxd\backup\chinadmin_2013-07-18_16-16-43.sql.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\openserver\domains\chinadmin\sxd\backup\chinadmin_2013-07-25_07-43-40.sql.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/images/logo.png" afterPath="$PROJECT_DIR$/themes/default/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Category.php" afterPath="$PROJECT_DIR$/protected/models/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/CategoryProducts.php" afterPath="$PROJECT_DIR$/protected/models/CategoryProducts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Products.php" afterPath="$PROJECT_DIR$/protected/models/Products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/controllers/ProductsController.php" afterPath="$PROJECT_DIR$/protected/modules/control/controllers/ProductsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/User.php" afterPath="$PROJECT_DIR$/protected/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/products/_form.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/products/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/products/_search.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/products/_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/flat-ui/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/themes/flat-ui/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/chinadmin.iml" afterPath="$PROJECT_DIR$/.idea/chinadmin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/layouts/column2.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/layouts/column2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/layouts/column3.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/layouts/column3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/flat-ui/css/control_module.css" afterPath="$PROJECT_DIR$/themes/flat-ui/css/control_module.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/flat-ui/css/flat-ui.css" afterPath="$PROJECT_DIR$/themes/flat-ui/css/flat-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/products/index.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/products/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/login/login.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/login/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/control/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/modules/control/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sxd/ses.php" afterPath="$PROJECT_DIR$/sxd/ses.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\openserver\domains\chinadmin\protected\views\site\contact.php" afterPath="$PROJECT_DIR$/protected/views/user/contact.php" />
     </list>
     <ignored path="chinadmin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374927553210" ignored="false" />
+    <file path="/a.dummy" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377943679427" ignored="false" />
     <file path="$PROJECT_DIR$/../china/protected/views/post/_form.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374148215976" ignored="false" />
     <file path="$PROJECT_DIR$/../hleb/bitrix/components/pitcom/news.list/templates/.default/template.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374149363116" ignored="false" />
     <file path="$PROJECT_DIR$/../hleb/bitrix/components/pitcom/action.list/templates/.default/template.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374149357440" ignored="false" />
@@ -18,17 +41,45 @@
     <file path="/Category.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374318975476" ignored="false" />
     <file path="/ajax.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374312461974" ignored="false" />
     <file path="/Content.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374406074626" ignored="false" />
-    <file path="/_form.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374316909314" ignored="false" />
+    <file path="/_form.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376906052442" ignored="false" />
     <file path="/flat-ui.css" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374312286391" ignored="false" />
     <file path="/application.js" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374930346293" ignored="false" />
-    <file path="/main.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374318887783" ignored="false" />
+    <file path="/main.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377939046805" ignored="false" />
     <file path="/inner_1.html" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374392306586" ignored="false" />
     <file path="/ContentController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374406775626" ignored="false" />
-    <file path="/index.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374394809564" ignored="false" />
-    <file path="/Dummy.txt" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374927448937" ignored="false" />
-    <file path="/ProductsController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374928518208" ignored="false" />
-    <file path="/Products.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374927761016" ignored="false" />
+    <file path="/index.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376906821457" ignored="false" />
+    <file path="/Dummy.txt" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377929467452" ignored="false" />
+    <file path="/ProductsController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376906409801" ignored="false" />
+    <file path="/Products.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376906470037" ignored="false" />
     <file path="/CategoryProductsController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1374928785423" ignored="false" />
+    <file path="/BrandsController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375610277616" ignored="false" />
+    <file path="/SiteController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375544221284" ignored="false" />
+    <file path="/GetBrands.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375437848358" ignored="false" />
+    <file path="/brandsMenu.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375438491170" ignored="false" />
+    <file path="/BrandsMenu.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375438448807" ignored="false" />
+    <file path="/Type.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375522783994" ignored="false" />
+    <file path="/TypesController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375522838553" ignored="false" />
+    <file path="/create.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375525282931" ignored="false" />
+    <file path="/update.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375525297563" ignored="false" />
+    <file path="/GetLastProducts.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375545889566" ignored="false" />
+    <file path="/lastProducts.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1375546112175" ignored="false" />
+    <file path="/BrandController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376920023631" ignored="false" />
+    <file path="/TypeProduct.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376720940501" ignored="false" />
+    <file path="/Types.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376905996421" ignored="false" />
+    <file path="/_view.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1376923494845" ignored="false" />
+    <file path="/ProductController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377429688627" ignored="false" />
+    <file path="/main_inner.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377937893829" ignored="false" />
+    <file path="/style.css" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377940200022" ignored="false" />
+    <file path="/item.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377942333861" ignored="false" />
+    <file path="/dummy.xml" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377934267505" ignored="false" />
+    <file path="/Reviews.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377410801682" ignored="false" />
+    <file path="/UserController.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377935435209" ignored="false" />
+    <file path="/login.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377935271100" ignored="false" />
+    <file path="/register.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377932497426" ignored="false" />
+    <file path="/User.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377932067817" ignored="false" />
+    <file path="/register_ok.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377932971998" ignored="false" />
+    <file path="/contact.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377940044467" ignored="false" />
+    <file path="/_header.php" changelist="b91cf16b-7881-48fb-bc47-44c4473555ac" time="1377940238659" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,60 +98,7 @@
     <favorites_list name="chinadmin" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ProductsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/control/controllers/ProductsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="8" selection-start="2996" selection-end="2996" vertical-scroll-proportion="-32.666668">
-              <folding>
-                <element signature="n#filters#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="n#accessRules#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="n#actionXml#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="n#actionCreate#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="n#actionDelete#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="n#actionIndex#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="e#4153#4430#0" expanded="true" />
-                <element signature="n#loadModel#0;n#ProductsController#0;n#!!top" expanded="true" />
-                <element signature="e#4622#4716#0" expanded="true" />
-                <element signature="n#performAjaxValidation#0;n#ProductsController#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/modules/control/views/products/_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="254" selection-end="254" vertical-scroll-proportion="-0.07533235">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Products.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/Products.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="50" selection-start="3755" selection-end="3755" vertical-scroll-proportion="-27.450981">
-              <folding>
-                <element signature="e#354#516#0" expanded="true" />
-                <element signature="n#model#0;n#Products#0;n#!!top" expanded="true" />
-                <element signature="e#613#675#0" expanded="true" />
-                <element signature="n#tableName#0;n#Products#0;n#!!top" expanded="true" />
-                <element signature="e#738#803#0" expanded="true" />
-                <element signature="n#rules#0;n#Products#0;n#!!top" expanded="true" />
-                <element signature="e#1414#1458#0" expanded="true" />
-                <element signature="n#relations#0;n#Products#0;n#!!top" expanded="true" />
-                <element signature="e#1719#1787#0" expanded="true" />
-                <element signature="n#attributeLabels#0;n#Products#0;n#!!top" expanded="true" />
-                <element signature="e#2244#2446#0" expanded="true" />
-                <element signature="n#search#0;n#Products#0;n#!!top" expanded="true" />
-                <element signature="n#beforeSave#0;n#Products#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,22 +121,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/themes/flat-ui/css/flat-ui.css" />
-        <option value="$PROJECT_DIR$/ajax.php" />
-        <option value="$PROJECT_DIR$/protected/modules/control/views/content/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Category.php" />
+        <option value="$PROJECT_DIR$/protected/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/views/user/register.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/_left_block_main.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/_left_block_main_inner.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/_footer.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main_inner.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$USER_HOME$/Desktop/inner_1.html" />
-        <option value="$PROJECT_DIR$/protected/modules/control/views/content/index.php" />
-        <option value="$PROJECT_DIR$/protected/models/Content.php" />
-        <option value="$PROJECT_DIR$/protected/modules/control/controllers/ContentController.php" />
-        <option value="$PROJECT_DIR$/protected/models/Products.php" />
-        <option value="$PROJECT_DIR$/protected/modules/control/controllers/ProductsController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/control/controllers/CategoryProductsController.php" />
-        <option value="$PROJECT_DIR$/protected/models/CategoryProducts.php" />
-        <option value="$PROJECT_DIR$/protected/modules/control/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/modules/control/views/products/_form.php" />
-        <option value="$PROJECT_DIR$/themes/flat-ui/js/application.js" />
+        <option value="$PROJECT_DIR$/protected/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/protected/views/user/contact.php" />
+        <option value="$PROJECT_DIR$/themes/default/css/style.css" />
+        <option value="$PROJECT_DIR$/protected/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/protected/views/product/item.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/_header.php" />
       </list>
     </option>
   </component>
@@ -151,7 +149,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1612" />
     <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -208,47 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flat-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chinadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chinadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flat-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chinadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chinadmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,13 +220,17 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="themeName" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="Configurable.PHP.FrameworkIntegration" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig" serverName="chinadmin" serverId="eabab89b-7b63-47da-9366-b53a9ea3ff9f">
     <servers>
+      <server id="20ef9365-a358-4e7a-9323-0baca14b0596">
+        <serverdata />
+      </server>
       <server id="32137111-2298-4ae4-a06c-98d078663b78">
         <serverdata />
       </server>
@@ -294,18 +256,23 @@
         <serverdata />
       </server>
       <server id="eabab89b-7b63-47da-9366-b53a9ea3ff9f">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
+        <serverdata />
       </server>
     </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\openserver\domains\chinadmin\protected\views\site" />
+      <recent name="D:\openserver\domains\chinadmin\protected\views\user" />
       <recent name="D:\openserver\domains\chinadmin\protected\models" />
-      <recent name="D:\openserver\domains\chinadmin\protected\modules\control\controllers" />
+      <recent name="D:\openserver\domains\chinadmin\protected\views\product" />
+      <recent name="D:\openserver\domains\chinadmin\protected\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\openserver\domains\chinadmin\protected\views\user" />
+      <recent name="D:\openserver\domains\chinadmin\protected\views\layouts" />
+      <recent name="D:\openserver\domains\chinadmin\protected\views\site" />
+      <recent name="D:\openserver\domains\chinadmin\protected\views\product" />
     </key>
   </component>
   <component name="RunManager">
@@ -348,19 +315,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1612" height="886" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32737276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17953669" sideWeight="0.67215365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18451613" sideWeight="0.6726272" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -404,7 +371,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -430,193 +397,174 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/models/Content.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="31" selection-start="2973" selection-end="2973" vertical-scroll-proportion="-12.307693">
+        <state line="41" column="45" selection-start="2212" selection-end="2212" vertical-scroll-proportion="-26.807692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/views/content/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main_inner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="84" selection-start="858" selection-end="858" vertical-scroll-proportion="0.025110783">
+        <state line="9" column="47" selection-start="343" selection-end="343" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/views/products/create.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/InformationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/views/products/update.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.01925926">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/CategoryProducts.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="18" selection-start="2724" selection-end="2732" vertical-scroll-proportion="2.7987804">
+        <state line="65" column="5" selection-start="2061" selection-end="2061" vertical-scroll-proportion="-21.153847">
           <folding>
-            <element signature="e#270#433#0" expanded="true" />
-            <element signature="n#model#0;n#CategoryProducts#0;n#!!top" expanded="true" />
-            <element signature="e#534#596#0" expanded="true" />
-            <element signature="n#tableName#0;n#CategoryProducts#0;n#!!top" expanded="true" />
-            <element signature="e#668#733#0" expanded="true" />
-            <element signature="n#rules#0;n#CategoryProducts#0;n#!!top" expanded="true" />
-            <element signature="e#1234#1278#0" expanded="true" />
-            <element signature="n#relations#0;n#CategoryProducts#0;n#!!top" expanded="true" />
-            <element signature="e#1470#1538#0" expanded="true" />
-            <element signature="n#attributeLabels#0;n#CategoryProducts#0;n#!!top" expanded="true" />
-            <element signature="e#1722#1924#0" expanded="true" />
-            <element signature="n#search#0;n#CategoryProducts#0;n#!!top" expanded="true" />
-            <element signature="n#getAllCategories#0;n#CategoryProducts#0;n#!!top" expanded="true" />
+            <element signature="n#init#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actionFeedbackform#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actions#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actionIndex#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actionLogin#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actionRegister#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actionLogout#0;n#UserController#0;n#!!top" expanded="true" />
+            <element signature="n#actionregistrationOk#0;n#UserController#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Category.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/user/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="3" column="30" selection-start="78" selection-end="104" vertical-scroll-proportion="0.075555556">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/controllers/CategoryProductsController.php">
+    <entry file="file://$PROJECT_DIR$/themes/default/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="35" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-0.07533235">
+        <state line="2125" column="52" selection-start="38987" selection-end="38987" vertical-scroll-proportion="0.58773184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/user/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="3056" selection-end="3056" vertical-scroll-proportion="-16.807692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="13" selection-start="6255" selection-end="6255" vertical-scroll-proportion="-14.192307">
           <folding>
-            <element signature="e#62#233#0" expanded="true" />
-            <element signature="e#272#313#0" expanded="true" />
-            <element signature="n#filters#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#503#645#0" expanded="true" />
-            <element signature="n#accessRules#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#941#1056#0" expanded="true" />
-            <element signature="e#1546#1723#0" expanded="true" />
-            <element signature="n#actionUpdate#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#2217#2397#0" expanded="true" />
-            <element signature="n#actionDelete#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#2692#2724#0" expanded="true" />
-            <element signature="n#actionIndex#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#2996#3274#0" expanded="true" />
-            <element signature="n#loadModel#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#3474#3569#0" expanded="true" />
-            <element signature="n#performAjaxValidation#0;n#CategoryProductsController#0;n#!!top" expanded="true" />
+            <element signature="e#53#146#0" expanded="true" />
+            <element signature="n#init#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="e#1707#1755#0" expanded="true" />
+            <element signature="n#actions#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="e#2310#2439#0" expanded="true" />
+            <element signature="n#actionIndex#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#getComments#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#actionAddcomment#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#actionEnter#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#actionError404#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#actionSitemap#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#actionAddFilesRecord#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="n#actionAddStatisticRecord#0;n#SiteController#0;n#!!top" expanded="true" />
+            <element signature="e#8550#8618#0" expanded="true" />
+            <element signature="n#actionError#0;n#SiteController#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2806499">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="84" selection-start="2890" selection-end="2890" vertical-scroll-proportion="2.6153846">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="50" selection-start="3755" selection-end="3755" vertical-scroll-proportion="-27.450981">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2666667">
           <folding>
-            <element signature="e#354#516#0" expanded="true" />
+            <element signature="e#421#583#0" expanded="true" />
             <element signature="n#model#0;n#Products#0;n#!!top" expanded="true" />
-            <element signature="e#613#675#0" expanded="true" />
+            <element signature="n#getId#0;n#Products#0;n#!!top" expanded="true" />
+            <element signature="n#getPrice#0;n#Products#0;n#!!top" expanded="true" />
+            <element signature="e#807#869#0" expanded="true" />
             <element signature="n#tableName#0;n#Products#0;n#!!top" expanded="true" />
-            <element signature="e#738#803#0" expanded="true" />
+            <element signature="e#932#997#0" expanded="true" />
             <element signature="n#rules#0;n#Products#0;n#!!top" expanded="true" />
-            <element signature="e#1414#1458#0" expanded="true" />
+            <element signature="e#1737#1781#0" expanded="true" />
             <element signature="n#relations#0;n#Products#0;n#!!top" expanded="true" />
-            <element signature="e#1719#1787#0" expanded="true" />
+            <element signature="n#behaviors#0;n#Products#0;n#!!top" expanded="true" />
+            <element signature="e#2607#2675#0" expanded="true" />
             <element signature="n#attributeLabels#0;n#Products#0;n#!!top" expanded="true" />
-            <element signature="e#2244#2446#0" expanded="true" />
+            <element signature="e#3272#3474#0" expanded="true" />
             <element signature="n#search#0;n#Products#0;n#!!top" expanded="true" />
             <element signature="n#beforeSave#0;n#Products#0;n#!!top" expanded="true" />
+            <element signature="n#afterSave#0;n#Products#0;n#!!top" expanded="true" />
+            <element signature="n#safeAttributes#0;n#Products#0;n#!!top" expanded="true" />
+            <element signature="n#getAllTitles#0;n#Products#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/controllers/ContentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.62629247">
-          <folding>
-            <element signature="e#135#278#0" expanded="false" />
-            <element signature="n#accessRules#0;n#ContentController#0;n#!!top" expanded="true" />
-            <element signature="e#481#651#1" expanded="false" />
-            <element signature="e#656#718#1" expanded="false" />
-            <element signature="n#actionCreate#0;n#ContentController#0;n#!!top" expanded="true" />
-            <element signature="e#2616#2670#0" expanded="false" />
-            <element signature="e#2639#2669#0" expanded="false" />
-            <element signature="n#actionUpdate#0;n#ContentController#0;n#!!top" expanded="true" />
-            <element signature="e#3318#3372#0" expanded="false" />
-            <element signature="e#3341#3371#0" expanded="false" />
-            <element signature="n#actionDelete#0;n#ContentController#0;n#!!top" expanded="true" />
-            <element signature="n#actionIndex#0;n#ContentController#0;n#!!top" expanded="true" />
-            <element signature="e#4085#4138#0" expanded="false" />
-            <element signature="e#4107#4137#0" expanded="false" />
-            <element signature="n#loadModel#0;n#ContentController#0;n#!!top" expanded="true" />
-            <element signature="n#performAjaxValidation#0;n#ContentController#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/controllers/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/product/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/controllers/SettingsController.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="122" column="57" selection-start="3676" selection-end="3676" vertical-scroll-proportion="0.3525926">
+          <folding>
+            <element signature="n#init#0;n#ProductController#0;n#!!top" expanded="true" />
+            <element signature="n#actionIndex#0;n#ProductController#0;n#!!top" expanded="true" />
+            <element signature="n#actionView#0;n#ProductController#0;n#!!top" expanded="true" />
+            <element signature="n#performAjaxValidation#0;n#ProductController#0;n#!!top" expanded="true" />
+            <element signature="n#putitem#0;n#ProductController#0;n#!!top" expanded="true" />
+            <element signature="n#loadModel#0;n#ProductController#0;n#!!top" expanded="true" />
+            <element signature="n#loadModelItem#0;n#ProductController#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/product/item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="253" selection-end="253" vertical-scroll-proportion="-6.5384617">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/flat-ui/fonts/icomoon-session.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="952948" selection-start="952948" selection-end="952948" vertical-scroll-proportion="0.79851854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/flat-ui/js/application.js">
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1374930349117" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="110" column="18" selection-start="4156" selection-end="4156" vertical-scroll-proportion="0.05037037">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/controllers/ProductsController.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/_header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="8" selection-start="2996" selection-end="2996" vertical-scroll-proportion="-32.666668">
-          <folding>
-            <element signature="n#filters#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="n#accessRules#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="n#actionXml#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="n#actionCreate#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="n#actionDelete#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="n#actionIndex#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#4153#4430#0" expanded="true" />
-            <element signature="n#loadModel#0;n#ProductsController#0;n#!!top" expanded="true" />
-            <element signature="e#4622#4716#0" expanded="true" />
-            <element signature="n#performAjaxValidation#0;n#ProductsController#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/control/views/products/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="254" selection-end="254" vertical-scroll-proportion="-0.07533235">
+        <state line="108" column="4" selection-start="4524" selection-end="4524" vertical-scroll-proportion="0.8488889">
           <folding />
         </state>
       </provider>

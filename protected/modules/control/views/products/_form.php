@@ -6,7 +6,14 @@
 ?>
 
 <div class="form">
-
+    <p class="success">
+        <?php if(Yii::app()->user->hasFlash('success')):
+            echo Yii::app()->user->getFlash('success');
+        endif; ?>
+    </p>
+    <?php
+   // CVarDumper::dump($_POST, 10, true);
+    ?>
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'content-form',
 	'enableAjaxValidation'=>false,
@@ -26,17 +33,40 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'img'); ?>
-		<?php echo $form->textField($model,'img',array('size'=>120,'maxlength'=>1000)); ?>
-		<?php echo $form->error($model,'img'); ?>
-        <input type="file" id="image" name="image" accept="image/*" multiple>
-        <div class="preview"></div>
+        <? echo $this->assortiment_image($model->id, $model->title, '100','my') ;
+
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.'/uploads/'.$model->id.'_assortiment.jpg')) {
+            echo '<div class="row">';
+            echo $form->labelEx($model,'del_img');
+            echo $form->checkBox($model,'del_img' );
+            echo '</div>';
+        }
+        ?>
+        <? echo '<br />' ?>
+
+        <?php echo CHtml::activeFileField($model, 'icon'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'introtext'); ?>
-		<?php echo $form->textArea($model,'introtext',array('size'=>120,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'introtext'); ?>
+        <?php echo $form->labelEx($model,'introtext'); ?>
+        <?php
+        $this->widget('ext.fckeditor.FCKEditorWidget', array(
+                "model"=>$model,
+                "attribute"=>'introtext',
+                "height"=>'400px',
+                "width"=>'100%',
+                "toolbarSet"=>'Default',
+                "fckeditor"=>Yii::app()->basePath."/../fckeditor/fckeditor.php",
+                "fckBasePath"=>Yii::app()->baseUrl."/fckeditor/",
+                "config" => array(
+                    "EditorAreaCSS"=>Yii::app()->baseUrl.'/css/index.css',),
+            )
+        );
+        ?>
+        <?php echo $form->error($model,'introtext'); ?>
+
+
+
 	</div>
 
     <div class="row">
@@ -48,6 +78,11 @@
         <?php echo $form->labelEx($model,'count'); ?>
         <?php echo $form->textField($model,'count',array('size'=>80,'maxlength'=>128)); ?>
         <?php echo $form->error($model,'count'); ?>
+    </div>
+    <div class="row">
+        <?php echo $form->labelEx($model,'sku'); ?>
+        <?php echo $form->textField($model,'sku',array('size'=>80,'maxlength'=>128)); ?>
+        <?php echo $form->error($model,'sku'); ?>
     </div>
 
 	<div class="row">
@@ -65,13 +100,30 @@
 		<?php echo $form->dropDownList($model,'category_id', CategoryProducts::getAllCategories()); ?>
 		<?php echo $form->error($model,'category_id'); ?>
 	</div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'brand_id'); ?>
+		<?php echo $form->dropDownList($model,'brand_id', Brands::getAllCategories()); ?>
+		<?php echo $form->error($model,'brand_id'); ?>
+	</div>
+	<div class="row">
+        <?php
+
+        $types = Types::model()->findAll(array('order' => 'title'));
+        if($model->id) {
+            $type_current = TypeProduct::model()->getTypeProduct($model->id);
+        }
+        $list = CHtml::listData($types, 'type_id', 'title');
+
+        echo $form->labelEx($model,'type_id');
+        echo CHtml::dropDownList('types', $type_current,$list,array('empty' => 'Выберите тип'));
+        ?>
+	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'created'); ?>
-		<?php echo $form->dateField($model,'created', array(
-			'value' => $model->created?date('j-m-Y H:i',$model->created):date('j-m-Y H:i',time()),
-		)); ?>
-		<?php echo $form->error($model,'created'); ?>
+        <?php echo $form->labelEx($model,'created'); ?>
+        <?php echo $form->textField($model,'created',array('size'=>80,'maxlength'=>128, 'value' => date('j-m-Y H:i',time()))); ?>
+        <?php echo $form->error($model,'created'); ?>
+
 	</div>
 
 	<div class="row buttons">

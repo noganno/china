@@ -4,7 +4,7 @@
 
 
 $this->menu=array(
-	array('label'=>'Создать страницу', 'url'=>array('create')),
+	array('label'=>'Создать продукт', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -23,7 +23,7 @@ $('.search-form form').submit(function(){
 ?>
 
 
-<h4>Управление заказами</h4>
+<h4>Управление продуктами</h4>
 
 <p class="success">
 <?php if(Yii::app()->user->hasFlash('success')):
@@ -42,9 +42,9 @@ endif; ?>
 			"name" => "title",
 			"value" => 'htmlspecialchars($data->title)',
 			),
-		'content' =>array(
-			"name" => "content",
-			"value" => 'mb_substr(strip_tags($data->content), 0, 20, "UTF-8")',
+		'icon' =>array(
+			"name" => "icon",
+			"value" => '',
 			),
 		'status' =>  array(
 			"name" => "status",
@@ -54,7 +54,7 @@ endif; ?>
 		'category_id' => array(
 			"name" => "category_id",
 			"value" => '$data->category->title',
-			"filter" => Category::getAllCategories()
+			"filter" => CategoryProducts::getAllCategories()
 			),
 		'created'  => array(
 			"name" => "created",

@@ -13,6 +13,14 @@
  */
 class User extends CActiveRecord
 {
+    // для капчи
+    public $verifyCode;
+    private $_identity;
+    public $username;
+    public $password;
+    public $rememberMe;
+    // для поля "повтор пароля"
+    public $confirm_password;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -39,17 +47,33 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, role', 'required'),
+			array('username, password', 'required'),
 			array('created, ban, role', 'numerical', 'integerOnly'=>true),
 			array('username', 'length', 'max'=>50),
 			array('password', 'length', 'max'=>100),
+            array('password', 'compare', 'compareAttribute'=>'confirm_password', 'on'=>'registration'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, username, password, created, ban, role', 'safe', 'on'=>'search'),
+            // правило для проверки капчи что капча совпадает с тем что ввел пользователь
+            array('verifyCode', 'captcha', 'allowEmpty'=>!extension_loaded('gd')),
+            array('username', 'match', 'pattern' => '/^[A-Za-z0-9А-Яа-я\s,]+$/u','message' => 'Логин содержит недопустимые символы.'),
 		);
 	}
 
-	/**
+    /**
+     * Список атрибутов которые могут быть массово присвоены
+     * в любом из наших сценариев
+     *
+     * @return unknown
+     */
+    public function safeAttributes()
+    {
+        return array('login', 'password', 'confirm_password', 'verifyCode', 'ban', 'role');
+    }
+
+
+    /**
 	 * @return array relational rules.
 	 */
 	public function relations()
@@ -113,4 +137,35 @@ class User extends CActiveRecord
 	{
 		return md5(sha1($data));
 	}
+
+    public function login()
+    {
+        if($this->_identity===null)
+        {
+            $this->_identity=new UserIdentity($this->username,$this->password);
+            $this->_identity->authenticate();
+        }
+        if($this->_identity->errorCode===UserIdentity::ERROR_NONE)
+        {
+            $duration=$this->rememberMe ? 3600*24*30 : 0; // 30 days
+            Yii::app()->user->login($this->_identity,$duration);
+            return true;
+        }
+        else
+            return false;
+    }
+
+    /**
+     * Authenticates the password.
+     * This is the 'authenticate' validator as declared in rules().
+     */
+    public function authenticate($attribute,$params)
+    {
+        if(!$this->hasErrors())
+        {
+            $this->_identity=new UserIdentity($this->username,$this->password);
+            if(!$this->_identity->authenticate())
+                $this->addError('password','Incorrect username or password.');
+        }
+    }
 }

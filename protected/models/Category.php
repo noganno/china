@@ -52,10 +52,11 @@ class Category extends CActiveRecord
 	 */
 	public function relations()
 	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
-		return array(
-		);
+        // NOTE: you may need to adjust the relation name and the related
+        // class name for the relations automatically generated below.
+        return array(
+            "products" => array(self::HAS_MANY, 'Products', 'category_id'),
+        );
 	}
 
 	/**

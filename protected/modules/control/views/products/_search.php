@@ -22,8 +22,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->label($model,'icon'); ?>
+		<?php echo $this->assortiment_image($model->id, $model->title, '100','my') ; ?>
 	</div>
 
 	<div class="row">

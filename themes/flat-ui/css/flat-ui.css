@@ -423,7 +423,7 @@ button,
 select,
 textarea {
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 a {
   color: #16a085;
@@ -966,13 +966,13 @@ h6 {
   padding-left: 22px;
 }
 .navbar-inverse .nav > li > a {
-  font-size: 16.002px;
+  font-size: 13px;
   /* 16px */
 
   border-bottom: 2px solid #2c3e50;
   border-left: 2px solid #2c3e50;
   color: #ffffff;
-  padding: 16px 20px 15px;
+  padding: 16px 10px 15px;
 }
 .navbar-inverse .nav.pull-right > li > a {
   border-radius: 0 6px 6px 0;
@@ -1217,9 +1217,9 @@ input[type="color"],
   border: 2px solid #bdc3c7;
   color: #34495e;
   font-family: "Lato", sans-serif;
-  font-size: 14px;
-  padding: 8px 5px;
-  height: 21px;
+  font-size: 12px;
+  padding: 5px 5px;
+  height: 18px;
   text-indent: 6px;
   -webkit-appearance: none;
   -webkit-border-radius: 6px;
@@ -1651,7 +1651,7 @@ textarea,
 }
 textarea {
   height: auto;
-  font-size: 14.994px;
+  font-size: 12px;
   /* 15px */
 
   line-height: 24px;

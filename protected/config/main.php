@@ -17,6 +17,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        'application.extensions.shoppingCart.*'
 	),
 
 	'modules'=>array(
@@ -33,6 +34,10 @@ return array(
 
 	// application components
 	'components'=>array(
+        'shoppingCart' =>
+        array(
+            'class' => 'application.extensions.shoppingCart.EShoppingCart',
+        ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -43,6 +48,18 @@ return array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'control/<action:\S+>/<id:\d+>'=>'control/<action>',
+                'brand/<controller:\w+>/<action:\w+>/<id:\d+>'    => 'brand/<controller>/<action>',
+                'brand/<controller:\w+>/<action:\w+>'                => 'brand/<controller>/<action>',
+                'brand/<controller:\w+>'                            => 'brand/<controller>/index',
+                'product/<controller:\w+>/<action:\w+>/<id:\d+>'    => 'product/<controller>/<action>',
+                'product/<controller:\w+>/<action:\w+>'                => 'product/<controller>/<action>',
+                'product/<controller:\w+>'                            => 'product/<controller>/index',
+                'brand'                                            => 'brand/index',
+                'product'                                            => 'product/index',
+                'user'                                            => 'user/index',
+                'user/<controller:\w+>/<action:\w+>/<id:\d+>'    => 'user/<controller>/<action>',
+                'user/<controller:\w+>/<action:\w+>'                => 'user/<controller>/<action>',
+                'user/<controller:\w+>'                            => 'user/<controller>/index',
 				'control/<action:\S+>' =>'control/<action>',
 				'control' => 'control',
 				'gii' => 'gii',
@@ -72,6 +89,8 @@ return array(
 			'password' => 'mysql',
 			'charset' => 'utf8',
 			'tablePrefix' => 'dev_',
+            'enableProfiling'=>true,
+            'enableParamLogging' => true,
 		),
 		
 		'errorHandler'=>array(
@@ -80,18 +99,32 @@ return array(
 		),
 		'log'=>array(
 			'class'=>'CLogRouter',
+            'enabled'=>YII_DEBUG,
 			'routes'=>array(
-				array(
+                array(
+                    'class'=>'CFileLogRoute',
+                    'levels'=>'error, warning',
+                ),
+                array(
+                    'class'=>'application.extensions.yii-debug-toolbar.YiiDebugToolbarRoute',
+                    'ipFilters'=>array('127.0.0.1','192.168.1.215'),
+                ),
+				/*array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
 				),
+                array(
+                    'class'=>'ext.DbProfileLogRoute',
+                    'countLimit' => 1, // How many times the same query should be executed to be considered inefficient
+                    'slowQueryMin' => 0.01, // Minimum time for the query to be slow
+                ),*/
 		
 				// uncomment the following to show log messages on web pages
-				/*
-				array(
+
+				/*array(
 					'class'=>'CWebLogRoute',
-				),
-				*/
+				),*/
+
 			),
 		),
 		// почта в раздел компонентов
@@ -106,6 +139,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'700102@mail.ru',
 		'is_production'=>true,
 ));
